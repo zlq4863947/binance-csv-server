@@ -1,0 +1,17 @@
+export enum Period {
+  min1 = '1m',
+  min3 = '3m',
+  min5 = '5m',
+  min15 = '15m',
+  min30 = '30m',
+  hour1 = '1h',
+  hour2 = '2h',
+  hour4 = '4h',
+  hour6 = '6h',
+  hour8 = '8h',
+  hour12 = '12h',
+  D = '1d',
+  D3 = '3d',
+  W = '1w',
+  M = '1M',
+}
