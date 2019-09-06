@@ -54,7 +54,6 @@
     "rollup": "^1.20.3",
     "rollup-plugin-buble": "^0.19.8",
     "rollup-plugin-commonjs": "^10.1.0",
-    "rollup-plugin-uglify": "^6.0.3",
     "ts-jest": "^24.0.2",
     "ts-node": "^8.3.0",
     "tsconfig-paths": "^3.8.0",

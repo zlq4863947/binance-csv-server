@@ -1,11 +1,7 @@
 /* globals process */
 
 import buble from 'rollup-plugin-buble';
-import { uglify } from 'rollup-plugin-uglify';
 import commonjs from 'rollup-plugin-commonjs';
-
-const environment = process.env.ENV || 'development';
-const isDevelopmentEnv = environment === 'development';
 
 module.exports = [
   {
@@ -26,6 +22,6 @@ module.exports = [
       'rxjs',
       'rxjs/operators',
     ],
-    plugins: [commonjs(), buble(), !isDevelopmentEnv && uglify({ output: { inline_script: true } })],
+    plugins: [commonjs(), buble()],
   },
 ];

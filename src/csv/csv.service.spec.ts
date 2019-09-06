@@ -10,6 +10,6 @@ describe('CsvService', () => {
 
   it('is not supported', async () => {
     const res = await csvService.getCsvData({ symbol: 'BTCUSDT', interval: Period.min5 });
-    console.log(res)
+    console.log(res);
   });
 });

@@ -1,7 +1,7 @@
 import { Controller, Get, Query } from '@nestjs/common';
 
-import { CsvService } from './csv.service';
 import { Period } from '../types';
+import { CsvService } from './csv.service';
 
 @Controller('csv')
 export class CsvController {
