@@ -61,7 +61,7 @@
     "tslint-eslint-rules": "^5.4.0",
     "typescript": "^3.5.3",
     "vrsource-tslint-rules": "^6.0.0",
-    "yarn": "^1.17.3"
+    "yarn": "^1.22.0"
   },
   "dependencies": {
     "@nestjs/common": "^6.6.7",
